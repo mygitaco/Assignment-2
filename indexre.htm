@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body style="background-color: rgb(226, 191, 50);">
+    <h1 align="center">Assignment-2</h1>
+<p style="color: rgb(10, 10, 10); font-style: italic;">
+    <h3>About</h3>
+    <u> Integral University is a private university in Lucknow, the capital of Uttar Pradesh, India, It is located in the North-eastern part of the city in Dashauli, approximately 17Km from the centre of the City. Integral University, the first enacted Minority University in the country, started functioning from 1 April 2004. Integral University was accorded recognition by U.G.C. under section 2(f) of U.G.C. Act, 1956. The university was founded in 2004.</u>
+    <p style="color: rgb(19, 18, 18); font-style:bold;">
+        <h3>Facilities</h3>
+        <b> The university is divided into blocks: Administrative block, Academic blocks A, B, C, Civil Block, Medical and Hospital Block, Library Block and Architecture block. The university has four boys hostels (1, 2, 3, 4), three girls hostels and Resident Hostel for Doctors and Nurses. A Punjab National Bank branch is opened in the university. The university has seven computer centers and labs. There is a Mechanical workshop, with traditional and modern machines and latest tools and instruments.The University also have a Robotics lab which is set up in August 2022. This Lab has various AI controlled machines and research equipments for scholars and researchers.</b>
+</p>
+
+<h1 class="segment">Registration Form</h1>
+&nbsp;&nbsp;&nbsp; Use tab keys to move from one input field to the next.
+<form name='registration' onSubmit="return formValidation();">
+<ul class="center">
+<li><label for="userid">User id:</label></li>
+<li><input type="text" placeholder="User id" name="userid" size="12" /></li>
+<li><label for="passid">Password:</label></li>
+<li><input type="password" placeholder="Password" name="passid" size="12" /></li>
+<li><label for="username">Name:</label></li>
+<li><input type="text" placeholder="Name" name="username" size="50" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" placeholder="Address" name="address" size="50" /></li>
+<li><label for="age"> Age:</label></li>
+<li><input type="text" placeholder="Age" name="age" size="50" /></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Select a Country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="moviename">Movie Name:</label></li>
+<li><input type="text" placeholder="Favourite Movie Name" name="moviename" size="50" /></li>
+<li><label for="singername">Singer Name:</label></li>
+<li><input type="text" placeholder="Favourite Singer Name" name="singername" size="50" /></li>
+<li><label for="subjectname">Sub Name:</label></li>
+<li><input type="text" placeholder="Favourite Subject Name" name="subjectname" size="50" /></li>
+<li><label for="zip">ZIP Code:</label></li>
+<li><input type="text" placeholder="ZIP-Code" name="zip" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" placeholder="E-mail" name="email" size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="sex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="sex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="lan" value="lan" /><span>English</span></li>
+<li><input type="checkbox" name="lan" value="lan" /><span>Hindi</span></li>
+<li><label for="desc">About:</label></li>
+<li><textarea placeholder="Write About Yourself" name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+<script src="myscripts.js"></script> 
+<script>
+    $("document").ready( function () {
+        alert("Assignment-2");
+    }); 
+</script>
+
+</body>
+
+</html>
